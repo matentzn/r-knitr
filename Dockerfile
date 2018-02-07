@@ -4,8 +4,6 @@ ENV DATA=/data
 
 ENV WORKSPACE=/opt/knitr
 
-ENV JAVA_OPTS='-Xmx20g -Xms12g'
-
 VOLUME ${DATA}
 
 RUN echo Building knitR Pipeline ${WORKSPACE} && \
